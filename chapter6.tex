@@ -1,0 +1,10 @@
+\section{6.1. Infinite-Size classes Can be learnable}
+
+\textit{Lemma 6.1. Let H be the class of thresholds as defined earlier. Then, H is PAC learnable, using the ERM rulte, with sample complexity of $m_H(\epsilon, \delta) \leq \lceil log(2/\delta)/ \epsilon \rceil$}
+
++ In proof part, after having training set $S$ we have $b_0$ and $b_1$ and $b_0 \leq b_1$ because we have assumption: Having $a^{*}$ achieves $L_D(h^*) = 0$ so data distribution is separable in 1D space. (++++++ ------) + is positive samples, - is negative sample, can't be (+++-++------), it cannot separate by $1_{a}$ so if $D$ like this, then $S$ also like this. So if define like in book then $b_0 \leq b_1$. But in real problem, cannot have assumption like this : $a^*$
+
+\section{6.2. The VC-Dimension}
+VC-dim of class $H$, maximum size of class $C$, that is shattered by class $H$
+
+\textit{Theorem 6.6 Let H be a class of infinite VC-dimension. Then, H is not PAC learnable}
