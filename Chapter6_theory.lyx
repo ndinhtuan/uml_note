@@ -329,5 +329,151 @@ exercise
 6.5 Proof of Theorem 6.7 
 \end_layout
 
+\begin_layout Standard
+To proof 
+\begin_inset Formula $6\rightarrow1$
+\end_inset
+
+: If 
+\begin_inset Formula $H$
+\end_inset
+
+ has a finite VC-dimension then 
+\begin_inset Formula $H$
+\end_inset
+
+ has the uniform convergence property 
+\end_layout
+
+\begin_layout Subsection*
+6.5.1 Sauer's Lemma and the Growth Function
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Definition 6.9 (Growth Function) 
+\series default
+Let 
+\begin_inset Formula $H$
+\end_inset
+
+ be a hypothesis class.
+ Then the 
+\emph on
+growth function 
+\emph default
+of 
+\begin_inset Formula $H$
+\end_inset
+
+, denoted 
+\begin_inset Formula $\tau_{H}:N\rightarrow N$
+\end_inset
+
+, is defined as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau_{H}(m)$
+\end_inset
+
+ = 
+\begin_inset Formula $\max_{C\subset X:|C|=m}|H_{C}|$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+In words, 
+\begin_inset Formula $\tau_{H}(m)$
+\end_inset
+
+ is the number of different functions from set C of size 
+\begin_inset Formula $m$
+\end_inset
+
+ to 
+\begin_inset Formula $\{0,1\}$
+\end_inset
+
+that can be obtained by restricting 
+\begin_inset Formula $H$
+\end_inset
+
+ to 
+\begin_inset Formula $C$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The following beautiful lemma, proposed independently by Sauer, Shelar and
+ Perlers, shows that when 
+\begin_inset Formula $m$
+\end_inset
+
+ becomes larger than the VC-dimension, the growth function increases 
+\series bold
+polynomially
+\series default
+ rather than 
+\series bold
+exponentially
+\series default
+ with 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Lemma 6.10 (Sauer-Shelah-Perles) 
+\series default
+Let 
+\begin_inset Formula $H$
+\end_inset
+
+ be a hypothesis class with VCdim(
+\begin_inset Formula $H$
+\end_inset
+
+)
+\begin_inset Formula $\leq d<\infty.$
+\end_inset
+
+ Then, for all 
+\begin_inset Formula $m$
+\end_inset
+
+, 
+\begin_inset Formula $\tau_{H}(m)\leq\sum_{i=0}^{d}(\frac{m}{i})$
+\end_inset
+
+.
+ In particular, if 
+\begin_inset Formula $m>d+1$
+\end_inset
+
+then 
+\begin_inset Formula $\tau_{H}(m)\leq(em/d)^{d}$
+\end_inset
+
+.
+\end_layout
+
 \end_body
 \end_document
