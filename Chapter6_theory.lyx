@@ -475,5 +475,53 @@ then
 .
 \end_layout
 
+\begin_layout Subsubsection*
+6.5.2 Uniform Convergence for classes of Small Effective Size
+\end_layout
+
+\begin_layout Standard
+In this section we prove that if 
+\begin_inset Formula $H$
+\end_inset
+
+ has a small effective size then it enjoys the uiform convergence property.
+ Formally,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Theorem 6.11 Let 
+\begin_inset Formula $H$
+\end_inset
+
+ be a class and let 
+\begin_inset Formula $\tau_{H}$
+\end_inset
+
+ be its growth function.
+ Then, for every 
+\begin_inset Formula $D$
+\end_inset
+
+ and every 
+\begin_inset Formula $\delta\in(0,1)$
+\end_inset
+
+, with probability of at least 
+\begin_inset Formula $1-\delta$
+\end_inset
+
+ over the choice of 
+\begin_inset Formula $S\sim D^{m}$
+\end_inset
+
+ we have : 
+\begin_inset Formula $|L_{D}(h)-L_{S}(h)|\leq\frac{4+\sqrt{log(\tau(2m)}}{\delta\sqrt{2m}}$
+\end_inset
+
+ .
+\end_layout
+
 \end_body
 \end_document

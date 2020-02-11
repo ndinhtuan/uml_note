@@ -75,114 +75,21 @@
 
 \begin_body
 
-\begin_layout Subsection*
-6.5 Proof of Theorem 6.7 
+\begin_layout Section*
+Chapter 2.
+ Theory
 \end_layout
 
 \begin_layout Standard
-To proof 
-\begin_inset Formula $6\rightarrow1$
+\begin_inset Formula $L_{D,f}(h)=P_{x\sim D}[h(x)\neq f(x)]=D(\{x:h(x)\neq f(x)\})$
 \end_inset
 
-: If 
-\begin_inset Formula $H$
-\end_inset
 
- has a finite VC-dimension then 
-\begin_inset Formula $H$
-\end_inset
-
- has the uniform convergence property.
- The proof is based on two main claims:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $*$
-\end_inset
-
- If VCdim(
-\begin_inset Formula $H$
-\end_inset
-
-) = 
-\begin_inset Formula $d$
-\end_inset
-
- then even though 
-\begin_inset Formula $H$
-\end_inset
-
- might be infinite, when restricting it to finite set 
-\begin_inset Formula $C\in X$
-\end_inset
-
-, its 
-\begin_inset Quotes eld
-\end_inset
-
-effective
-\begin_inset Quotes erd
-\end_inset
-
- size, 
-\begin_inset Formula $|H_{C}|$
-\end_inset
-
-, is only 
-\begin_inset Formula $O(|C^{d}|)$
-\end_inset
-
-.
- That mean 
-\begin_inset Formula $|H_{C}|$
-\end_inset
-
-grows polynomially with 
-\begin_inset Formula $|C|$
-\end_inset
-
-.
- Sauer's lemma will refer it.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $*$
-\end_inset
-
- In sectin 4 we have shown that finite hypothesis classes enjoy the uniform
- convergence property.
- In Section 6.5.2 later we generalize it and show that uniform convergence
- holds whenever the hypothesis class has a 
-\begin_inset Quotes eld
-\end_inset
-
-small effective size
-\begin_inset Quotes erd
-\end_inset
-
-.
- By 
-\begin_inset Quotes eld
-\end_inset
-
-small effective size
-\begin_inset Quotes erd
-\end_inset
-
- mean 
-\begin_inset Formula $|H_{C}|$
-\end_inset
-
- grows polynomially with 
-\begin_inset Formula $|C|$
-\end_inset
-
-.
 \begin_inset Newline newline
 \end_inset
 
 
-\begin_inset Formula $ $
+\begin_inset Formula $L_{S}(h)=\frac{|\{i\in[m]:h(x_{i})\neq y_{i}\}|}{m}$
 \end_inset
 
 
